@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>javascript</title>
+
+    <link rel="stylesheet" type="text/css" href="tip-code-css.css">
+
+</head>
+<body>
+    <div id="container">
+        <h1>TIP CALCULATOR</h1>
+        <div id="calculator">
+            <form>
+                <p>kitne ka khaya???</p>
+                <p>
+                    Rs. <input id="billamt" type="text" placeholder="Bill to bhar">
+                </p>
+                <p>aap ke liye service?</p>
+                <p>
+                    <select id="serviceQual">
+                        <option disabled selected value="0">-- Choose an option --</option>
+                        <option value="0.15">15&#37; &#45; Outstanding</option>
+                        <option value="0.10">10&#37; &#45; Good</option>
+                        <option value="0.05">5&#37; &#45; It was OK</option>
+                    </select>
+                </p>
+            </form>
+
+            <p>kitne jano me bill batoge</p>
+            <input id="peopleamt" type="text" placeholder="number of people" > people
+            <button type="button" id="calculate">calculate</button>
+
+        </div>
+
+        <!-- calculator end -->
+        <div id="totalTip">
+            <sup>Rs.</sup><span id="tip">0.00</span>
+            <small id="each">each</small>
+        </div>
+        <!-- totalTip end -->
+    </div>
+    <!-- container end -->
+
+    <script type="text/javascript" src="tip-code.js">
+       
+    </script>
+
+</body>
+</html>
